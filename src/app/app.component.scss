@@ -1,0 +1,22 @@
+/* styles.css */
+
+/* Add borders to all table rows and cells */
+table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  tr, td {
+    border: 2px solid #140808;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  /* Style for header row if needed */
+  th {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+    background-color: #f2f2f2; /* Optional background color for header */
+  }
+  
